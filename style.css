@@ -54,6 +54,12 @@ body {
 	background-color: rgb(237 251 253);
 }
 
+@media (max-width: 767px) {
+	.header {
+		background-image: url(./images/bg-hero-mobile.svg);
+	}
+}
+
 @media (max-width: 500px) {
 	.header {
 		margin-bottom: 2.5rem;
